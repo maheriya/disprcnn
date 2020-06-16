@@ -1,0 +1,10 @@
+name: disprcnn
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'

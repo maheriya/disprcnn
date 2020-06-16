@@ -1,3 +1,4 @@
+#!/bin/bash
 # copy RPN
 mkdir models/kitti/pob/rcnn
 cp models/kitti/pob/rpn/model_0027462.pth models/kitti/pob/rcnn/model_0000000.pth
