@@ -1,8 +1,8 @@
 #!/bin/bash
-export NGPUS=1
-export WORLD_SIZE=1
+export NGPUS=4
+export WORLD_SIZE=${NGPUS}
 
-BATCHSIZE=2
+BATCHSIZE=12
 MAXLR=$(python -c "print(1e-2 * ${BATCHSIZE}/12.)")
 
 echo 'preparing offline predictions...'
